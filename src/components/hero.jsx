@@ -1,4 +1,5 @@
 import React from 'react';
+import portrait from '../assets/rob.png';
 
 export default function Hero() {
   return (
@@ -10,7 +11,7 @@ export default function Hero() {
         <input className="w-1/2 px-4 py-2 border border-gray-300 rounded-md" type="text" placeholder="What do you want to know about Rob?" />
       </div>
       <div className="w-1/2 flex justify-start">
-        <img className="w-1/2 h-3/5 rounded-full -rotate-12" src="/src/assets/rob.png" alt="Robert Haynes" />
+        <img className="w-1/2 h-3/5 rounded-full -rotate-12" src={portrait} alt="Robert Haynes" />
       </div>
     </div>
   );
