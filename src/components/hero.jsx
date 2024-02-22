@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import portrait from '../assets/rob.png';
 import avater from '../assets/rob-avatar.png';
+import Particles from './utils/particles';
 
 export default function Hero() {
   const [inputValue, setInputValue] = useState('');
@@ -13,6 +14,8 @@ export default function Hero() {
   };
 
   return (
+    <>
+    <Particles className="absolute inset-0 pointer-events-none" quantity={50} />
     <div className="flex flex-wrap items-center justify-center w-screen h-screen bg-brand-gunmetal">
       <div className="w-1/2 items-center justify-center flex flex-col space-y-8">
         <div className="w-1/2 mb-4 flex lg:hidden justify-center">
@@ -42,5 +45,6 @@ export default function Hero() {
         <img className="w-1/2 h-3/5 rounded-full -rotate-12 shadow-md" src={portrait} alt="Robert Haynes" />
       </div>
     </div>
+    </>
   );
 }
