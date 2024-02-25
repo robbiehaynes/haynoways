@@ -2,7 +2,7 @@ import Hero from './components/hero'
 import React from 'react'
 import { SpeedInsights } from '@vercel/speed-insights/react';
 import { Parallax, ParallaxLayer } from '@react-spring/parallax';
-import devilsPeak from './assets/parallax/devils-peak.png';
+import mountains from './assets/parallax/mountains.png';
 import citythree from './assets/parallax/city-3.png';
 import citytwo from './assets/parallax/city-2.png';
 import cityone from './assets/parallax/city-1.png';
@@ -14,14 +14,8 @@ function App() {
   return (
     <div >
       <Parallax pages={2} className="w-full h-full bg-gradient-to-b from-gradient-orange to-gradient-yelow">
-        <ParallaxLayer offset={0.23} speed={-0.9} style={{
-            backgroundSize: '80%',
-            backgroundPosition: 'right top',
-            backgroundImage: "url('../src/assets/parallax/table-mountain.png')",
-          }}>
-        </ParallaxLayer>
-        <ParallaxLayer offset={0.27} speed={-0.7}>
-          <img src={devilsPeak} className="w-3/4"/>
+        <ParallaxLayer offset={0.22} speed={-0.7}>
+          <img src={mountains} className="w-full"/>
         </ParallaxLayer>
         <ParallaxLayer offset={0.45} speed={-0.5}>
           <img src={citythree} className="w-full"/>
