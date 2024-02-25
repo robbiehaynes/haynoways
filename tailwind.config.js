@@ -1,4 +1,7 @@
 /** @type {import('tailwindcss').Config} */
+
+const plugin = require('tailwindcss/plugin')
+
 export default {
   content: [
     "./index.html",
@@ -12,10 +15,26 @@ export default {
         'brand-vista-blue': '#8D9EC6',
         'brand-tea-green': '#D4E4BC',
         'brand-beige': '#EEF5DB',
+        'gradient-orange': '#F5B59A',
+        'gradient-yelow': '#FFF6DE',
+      },
+      textShadow: {
+        sm: '0 1px 4px #00000060',
+        DEFAULT: '0 4px 6px #00000060',
+        lg: '0 8px 24px #00000060',
       },
       fontFamily: {
         'pacifico': ['Pacifico', 'cursive'],
         'jua': ['Jua', 'sans-serif'],
+      },
+      backgroundImage: {
+        'beach': "url('../src/assets/parallax/beach-ocean.png')",
+        'city-1': "url('../src/assets/parallax/city-1.png')",
+        'city-2': "url('../src/assets/parallax/city-2.png')",
+        'city-3': "url('../src/assets/parallax/city-3.png')",
+        'devils-peak': "url('../src/assets/parallax/devils-peak.png')",
+        'promenade': "url('../src/assets/parallax/promenade.png')",
+        'table-mountain': "url('../src/assets/parallax/table-mountain.png')"
       },
       animation: {
         'text-slide': 'text-slide 12.5s cubic-bezier(0.83, 0, 0.17, 1) infinite',
@@ -45,6 +64,16 @@ export default {
     },
   },
   plugins: [
+    plugin(function ({ matchUtilities, theme }) {
+      matchUtilities(
+        {
+          'text-shadow': (value) => ({
+            textShadow: value,
+          }),
+        },
+        { values: theme('textShadow') }
+      )
+    }),
   ],
 }
 
