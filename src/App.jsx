@@ -20,16 +20,16 @@ function App() {
             backgroundImage: "url('../src/assets/parallax/table-mountain.png')",
           }}>
         </ParallaxLayer>
-        <ParallaxLayer offset={0.27} speed={-0.9}>
+        <ParallaxLayer offset={0.27} speed={-0.7}>
           <img src={devilsPeak} className="w-3/4"/>
         </ParallaxLayer>
-        <ParallaxLayer offset={0.45} speed={-0.6}>
+        <ParallaxLayer offset={0.45} speed={-0.5}>
           <img src={citythree} className="w-full"/>
         </ParallaxLayer>
-        <ParallaxLayer offset={0.42} speed={-0.4}>
+        <ParallaxLayer offset={0.41} speed={-0.3}>
           <img src={citytwo} className="w-full"/>
         </ParallaxLayer>
-        <ParallaxLayer offset={0.54} speed={-0.2}>
+        <ParallaxLayer offset={0.54} speed={-0.1}>
           <img src={cityone} className="w-full"/>
         </ParallaxLayer>
         <ParallaxLayer offset={0.75} speed={0}>
