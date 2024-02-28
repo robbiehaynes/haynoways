@@ -12,7 +12,7 @@ function App() {
 
   return (
     <div >
-      <Parallax pages={2} className="w-full h-full bg-gradient-to-b from-gradient-orange to-gradient-yelow">
+      <Parallax pages={2} className="w-screen h-screen bg-gradient-to-b from-gradient-orange to-gradient-yelow">
         <ParallaxLayer offset={0.29} speed={-0.7}>
           <div style={{backgroundImage: `url(${mountains})`}} className="bg-cover bg-top aspect-video lg:aspect-[168/53]"></div>
         </ParallaxLayer>
