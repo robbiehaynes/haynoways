@@ -28,16 +28,6 @@ export default {
         'pacifico': ['Pacifico', 'cursive'],
         'jua': ['Jua', 'sans-serif'],
       },
-      backgroundImage: {
-        'beach': "url('../src/assets/parallax/beach-and-promenade.png')",
-        'city-1': "url('../src/assets/parallax/city-1.png')",
-        'city-2': "url('../src/assets/parallax/city-2.png')",
-        'city-3': "url('../src/assets/parallax/city-3.png')",
-        'promenade': "url('../src/assets/parallax/promenade.png')",
-        'mountains': "url('../src/assets/parallax/mountains.png')",
-        'github': "url('../src/assets/github.png')",
-        'linkedin': "url('../src/assets/linkedin.png')",
-      },
       animation: {
         'text-slide': 'text-slide 12.5s cubic-bezier(0.83, 0, 0.17, 1) infinite',
       },
