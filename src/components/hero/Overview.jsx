@@ -1,6 +1,6 @@
 import React from "react";
-import rob from '../assets/rob.png';
-import robavatar from '../assets/rob-avatar.webp';
+import rob from '../../assets/rob.png';
+import robavatar from '../../assets/rob-avatar.webp';
 
 const Overview = () => {
   return (
