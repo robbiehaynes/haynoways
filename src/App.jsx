@@ -1,4 +1,4 @@
-import { Overview, ParallaxComponent } from './components';
+import ParallaxComponent from './components/Parallax';
 import React from 'react';
 import { SpeedInsights } from '@vercel/speed-insights/react';
 
