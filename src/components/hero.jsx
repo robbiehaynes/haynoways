@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { TERipple } from "tw-elements-react";
 
 export default function Hero() {
   const [inputValue, setInputValue] = useState('');
@@ -26,7 +25,7 @@ export default function Hero() {
         </span><br/>Developer</div>
         <h4 className="text-xl md:text-2xl text-shadow-sm text-brand-gunmetal font-jua">My actual name is Rob<br/>I'm a full-stack developer.</h4>
         <input
-          className="w-3/4 lg:w-1/2 px-4 py-4 border bg-brand-gunmetal border-brand-gunmetal text-sm md:text-base font-jua text-slate-200 placeholder-slate-200 rounded-2xl"
+          className="w-3/4 lg:w-1/2 px-4 py-4 border bg-brand-gunmetal border-brand-gunmetal text-sm md:text-base font-jua text-slate-200 placeholder-slate-200 placeholder-opacity-50 rounded-2xl"
           type="text"
           placeholder="What do you want to know about Rob?"
           value={inputValue}
@@ -38,7 +37,7 @@ export default function Hero() {
             <button
               type="button"
               className="inline-block rounded px-6 py-2.5 text-xs font-medium uppercase leading-normal text-white shadow-lg transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg"
-              style={{ backgroundColor: "#8D9EC6" }}
+              style={{ backgroundColor: "#015662" }}
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -54,7 +53,7 @@ export default function Hero() {
             <button
               type="button"
               className="inline-block rounded px-6 py-2.5 text-xs font-medium uppercase leading-normal text-white shadow-lg transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg"
-              style={{ backgroundColor: "#8D9EC6" }}
+              style={{ backgroundColor: "#015662" }}
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"

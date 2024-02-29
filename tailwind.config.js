@@ -14,6 +14,7 @@ export default {
         'brand-coral': '#F7877F',
         'brand-dark-coral': '#E46D5E',
         'brand-vista-blue': '#8D9EC6',
+        'brand-dark-blue': '#015662',
         'brand-tea-green': '#D4E4BC',
         'brand-beige': '#EEF5DB',
         'gradient-orange': '#F5B59A',
