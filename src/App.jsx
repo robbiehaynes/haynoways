@@ -2,11 +2,11 @@ import Hero from './components/hero'
 import React from 'react'
 import { SpeedInsights } from '@vercel/speed-insights/react';
 import { Parallax, ParallaxLayer } from '@react-spring/parallax';
-import mountains from './assets/parallax/mountains.png';
-import city1 from './assets/parallax/city-1.png';
-import city2 from './assets/parallax/city-2.png';
-import city3 from './assets/parallax/city-3.png';
-import beach from './assets/parallax/beach-and-promenade.png';
+import mountains from './assets/parallax/mountains.webp';
+import city1 from './assets/parallax/city-1.webp';
+import city2 from './assets/parallax/city-2.webp';
+import city3 from './assets/parallax/city-3.webp';
+import beach from './assets/parallax/beach-and-promenade.webp';
 
 function App() {
 
