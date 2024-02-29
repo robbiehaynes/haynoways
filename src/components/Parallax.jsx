@@ -1,5 +1,5 @@
-import Hero from '../components/Hero';
-import Overview from '../components/Overview';
+import Hero from './Hero';
+import Overview from './Overview';
 import { Parallax, ParallaxLayer } from '@react-spring/parallax';
 import mountains from '../assets/parallax/mountains.webp';
 import city1 from '../assets/parallax/city-1.webp';
