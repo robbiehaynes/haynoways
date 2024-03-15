@@ -1,6 +1,7 @@
 import Hero from './hero/Hero';
 import Overview from './hero/Overview';
 import Experience from './Experience';
+import Tech from './Tech';
 import { Parallax, ParallaxLayer } from '@react-spring/parallax';
 import mountains from '../assets/parallax/mountains.webp';
 import city1 from '../assets/parallax/city-1.webp';
@@ -11,7 +12,7 @@ import beach from '../assets/parallax/beach-and-promenade.webp';
 const ParallaxComponent = () => {
     return (
         <div className="w-screen h-screen">
-            <Parallax pages={3} className="w-screen h-screen overflow-hidden scroll-smooth relative place-items-center bg-gradient-to-b from-gradient-orange to-gradient-yelow">
+            <Parallax pages={4} className="w-screen h-screen overflow-hidden scroll-smooth relative place-items-center bg-coral">
                 <ParallaxLayer offset={0.29} speed={-0.7}>
                 <div style={{backgroundImage: `url(${mountains})`}} className="bg-cover bg-top aspect-video lg:aspect-[168/53]"></div>
                 </ParallaxLayer>
@@ -34,6 +35,9 @@ const ParallaxComponent = () => {
                     <Overview />
                 </ParallaxLayer>
                 <ParallaxLayer offset={2} speed={0}>
+                    <Tech />
+                </ParallaxLayer>
+                <ParallaxLayer offset={2.25} speed={0}>
                     <Experience />
                 </ParallaxLayer>
             </Parallax>

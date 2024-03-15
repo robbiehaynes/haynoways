@@ -4,13 +4,13 @@ import robavatar from '../../assets/rob-avatar.webp';
 
 const Overview = () => {
   return (
-    <div className="relative flex flex-col md:flex-row justify-start items-center w-full h-screen bg-brand-dark-blue">
+    <div className="relative flex flex-col md:flex-row justify-start items-center w-full h-screen bg-gunmetal">
         <div className="absolute top-0 left-0 w-full h-full"></div>
         <div className="pt-20 mb-8 px-24 w-full md:w-3/5 lg:w-1/2">
             <p className="text-xs md:text-base text-white opacity-75 mb-4 font-jua uppercase tracking-wider">Let's get to know me a little...</p>
-            <h2 className="text-6xl md:text-7xl text-brand-tea-green font-pacifico text-shadow">Overview.</h2>
+            <h2 className="text-6xl md:text-7xl text-coral font-pacifico text-shadow">Overview.</h2>
 
-            <p className='mt-8 text-brand-beige opacity-75 font-jua text-base lg:text-lg max-w-3xl leading-[30px]'>
+            <p className='mt-8 text-coral opacity-60 font-jua text-base lg:text-lg max-w-3xl leading-[30px]'>
             Hey! I'm Rob Haynes, an enthusiastic and dedicated Computer Science student at the University of Manchester, 
             currently on a transformative journey as an Undergraduate Software Engineer at JLR.
             <br/><br/>
